@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boina Muebles | Inicio</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./pages/productos.html">Productos</a></li>
+                <li><a href="./pages/preguntas.html">Preguntas</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="#inspiracion">Inspiración</a></li>
+            </ul>
+        </nav>
+        <h1 id="inicio">Los mejores muebles de Argentina!</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bienvenido a Boina Muebles</h2>
+            <p>En nuestra tienda encontrarás muebles que combinan <strong><em>diseño, comodidad y funcionalidad</em></strong> para darle vida a cada rincón de tu hogar. Creamos <strong><em>espacios únicos, con estilo y calidez</em></strong>, para que cada ambiente se sienta verdaderamente tuyo.</p>
+        </section>
+
+        <section>
+            <h2>Nuestras ofertas</h2>
+            <p><strong>¡Renová tu hogar al mejor precio!</strong> Descubrí <mark>nuestras ofertas en muebles</mark> y aprovechá descuentos increíbles en diseños que combinan estilo, comodidad y calidad. Encontrá tus favoritos y dale un nuevo aire a tus espacios sin gastar de más.</p>
+            <article>
+                <img src="./img/silla1.png" alt="Silla marron de madera con respaldo tejido">
+                <ul>
+                    <li>Estructura de madera Olmo</li>
+                    <li>Medidas: 44 x 42 x 85cm</li>
+                    <li>Altura piso a asiento: 45cm</li>
+                    <li>Resiste hasta 120kg</li>
+                    <li>Modelo importado</li>
+                    <li>Valor: $299.000</li>
+                </ul>
+            </article>
+            <article>
+                <img src="./img/mesa1.png" alt="Mesa de comedor redonda de roble">
+                <ul>
+                    <li>Base central conica de madera</li>
+                    <li>Tapa MDF enchapado color roble con bordes finos</li>
+                    <li>Medidas: 120cm 75h</li>
+                    <li>Colores en stock: Roble - negro</li>
+                    <li>Valor: $900.000</li>
+                </ul>
+            </article>
+            <article>
+                <img src="./img/sillon1.png" alt="Sillon individual de madera acolchonado">
+                <ul>
+                    <li>Medidas: 91 x 80 x 76cm</li>
+                    <li>Color: Marron, natural o negro</li>
+                    <li>Resiste hasta 120kg</li>
+                    <li>Modelo Importado</li>
+                    <li>Valor: $660.000</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="inspiracion">
+            <h2>Inspiración</h2>
+            <p>Te invito a conocer nuestra <strong>inspiración</strong> para la creación de este proyecto.</p>
+            <ul>
+                <li><a href="https://www.boinamuebles.com/" target="_blank" rel="noopener noreferrer">Boina Muebles</a></li>
+            </ul>
+        </section>
+        <section>
+        
+        <table>
+                <caption>Lista comparativa de productos y sus precios</caption>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Material</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Silla Chalten esterilla natural</td>
+                        <td>Madera Olmo</td>
+                        <td>$299.000</td>
+                    </tr>
+                    <tr>
+                        <td>Mesa comedor Braga redonda </td>
+                        <td>Roble</td>
+                        <td>$900.000</td>
+                    </tr>
+                    <tr>
+                        <td>Sillon Carl hansen CH 07</td>
+                        <td>Madera Multilaminada Moldeada</td>
+                        <td>$660.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="nombre-usuario">Nombre:</label>
+                    <input type="text" id="nombre-usuario" name="usuario-nombre" placeholder="Paloma" required>
+                </div>
+
+                <div>
+                    <label for="telefono-usuario">Teléfono:</label>
+                    <input type="tel" id="telefono-usuario" name="usuario-telefono" placeholder="12345678910">
+                </div>
+
+                <div>
+                    <label for="correo-usuario">Email:</label>
+                    <input type="email" id="correo-usuario" name="usuario-correo" placeholder="abcd@gmail.com" required>
+                </div>
+
+                <div>
+                    <label for="asunto">Asunto:</label>
+                    <select name="asunto" id="asunto" required>
+                        <option value="" disabled selected>Seleccioná un motivo</option>
+                        <option value="consulta">Consulta general</option>
+                        <option value="presupuesto">Solicitud de presupuesto</option>
+                        <option value="reclamo">Reclamos o devoluciones</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="informacion-asunto">Información extra:</label>
+                    <textarea id="informacion-asunto" name="informacion-extra" placeholder="Contanos por qué seleccionaste esa opción" rows="4" required></textarea>
+                </div>
+
+                <button type="submit">Enviar información</button>
+            </form>
+        </section>
+        <aside>
+            <h2>Mira las reseñas que dejaron nuestros clientes..</h2>
+            <a href="https://maps.app.goo.gl/XQKYwQ4JPVrJ159w6" target="_blank">Aquí</a>
+        </aside>
+    </main>
+
+
+    <footer>
+        <p><a href="#inicio">Volver al inicio</a></p>
+        <p>Paloma Acuña. </p>
+        <p>Gmail: acunafernandezpaloma@gmail.com</p>
+    </footer>
+</body>
+</html>

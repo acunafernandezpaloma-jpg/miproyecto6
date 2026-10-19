@@ -1,0 +1,33 @@
+/*reset*/
+html{box-sizing: border-box;}
+*, *:before, *:after { box-sizing: inherit; }
+
+
+:root{
+    --color-primary: #D9D7D4;
+    --color-secondary: #000000;
+    --fontsize-xl: 4rem;
+    --fontsize-normal: 1.5rem;
+    --font-main: "Poppins", sans-serif;
+    --space-lg: 2.5rem;
+    --space-base: 1.2rem;
+    --font-color: #00000000;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--color-secondary);
+    margin: 0;
+    padding: var(--space-base);
+}
+
+h1, h2 {
+    color: var(--color-secondary);
+    margin-bottom: calc(var(--space-base) * 1.5);
+}
+
+button {
+    background-color: var(--color-primary);
+    padding: calc(var(--space-base) * 0.5) var(--space-base);
+}
+
